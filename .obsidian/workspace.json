@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "262e9a79f916ede7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a85a2e198df9e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9de64ceebded532a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81aaf8bacd707aa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "921eaf86549ea7cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "855077c2c2cb5bb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#promts",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e10ce33b1f632574",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "800014fe5b8dd980",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7cd527e38fa30c64",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "fce5d833f34b956b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe695f9714183fd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03c943150b7433e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47d8a2d4ee361452",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f7d9a147058d5b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "948bb3b297040095",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e88a3a477f3f5a8d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "9de64ceebded532a",
+  "lastOpenFiles": [
+    "calendar/Старая структура.md",
+    "calendar/README.md",
+    "Старая структура.md",
+    "Вопросы.md",
+    "temp.md",
+    "README.md",
+    "assets/old_add_google.png",
+    "assets/old_structure.jpg",
+    "assets/Button.png",
+    "assets",
+    "calendar/Вопросы.md",
+    "obsidian-calendar",
+    "2024-06-28.md",
+    "calendar/assets/old_add_google.png",
+    "calendar/assets/q1.jpg",
+    "calendar/assets/Скриншот 28-06-2024 112616.jpg",
+    "calendar/Untitled.md",
+    "calendar/temp.md",
+    "calendar/assets/old_structure.jpg",
+    "calendar/assets/Скриншот 27-06-2024 163552.jpg",
+    "calendar/assets/Скриншот 27-06-2024 160446.jpg",
+    "calendar/assets/Button.png",
+    "calendar/assets",
+    "calendar/New folder",
+    "calendar",
+    "other/tiktok.md",
+    "other",
+    "other/promts/art-prompts/sd3 raw.md",
+    "other/promts/art-prompts/art4.md",
+    "other/promts/art-prompts/sd pony.md",
+    "other/promts/art-prompts/sd pony 2.md",
+    "other/promts/art-prompts/art system.md",
+    "other/promts/art-prompts/art5.md",
+    "other/promts/art-prompts/avatar.md",
+    "other/promts/art-prompts/sd art.md",
+    "other/ai talk/Untitled.md",
+    "other/promts/art-prompts/art2.md",
+    "other/promts/art-prompts/art3.md",
+    "other/promts/art-prompts/sd jug.md",
+    "other/promts/dirty words.md",
+    "other/ai talk/intimate/02.2024/bad words fun, full.md",
+    "other/promts/jailbreak.md",
+    "tiktok",
+    "other/ai talk/intimate/02.2024",
+    "other/promts/art-prompts",
+    "FiraCode.ttf",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

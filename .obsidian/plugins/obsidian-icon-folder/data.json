@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 18,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "IbText2",
+      "RiSoundcloudLine",
+      "FarCircle",
+      "RiBookLine",
+      "RiDiscussLine"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "other/ai talk": "RiDiscussLine",
+  "other/ai talk/intimate": "IbHeart",
+  "other/fiction": "RiBookLine",
+  "other/game": "IbGames",
+  "other/podcasts": "RiSoundcloudLine",
+  "other/promts": "IbText2",
+  "other/transcripts (not my)": "FarCircle"
+}

@@ -1,0 +1,28 @@
+{
+  "hotkeys": [
+    {
+      "sequence": [
+        {
+          "key": "Tab",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:next-tab"
+    },
+    {
+      "sequence": [
+        {
+          "key": "Tab",
+          "shift": true,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:previous-tab"
+    }
+  ]
+}

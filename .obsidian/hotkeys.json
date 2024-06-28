@@ -1,0 +1,45 @@
+{
+  "workspace:next-tab": [],
+  "workspace:previous-tab": [],
+  "workspace:goto-last-tab": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-1": [],
+  "app:open-settings": [],
+  "app:reload": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "workspace:new-tab": [],
+  "graph:open": [],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:toggle-italics": []
+}
