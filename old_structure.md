@@ -55,10 +55,8 @@ days: [
 #### производственный календарь
 https://www.klerk-team17.ru/tool/calendar/industrial/2024/
 
-> [!Заметка] 
 > Информация для производственного календаря возвращается в
 > **v4/structure** https://www.klerk-team17.ru/yindex.php/v4/structure?dir=%2Ftool%2Fcalendar%2Findustrial%2F2024%2F
-> 
 
 ```js
 "general": {

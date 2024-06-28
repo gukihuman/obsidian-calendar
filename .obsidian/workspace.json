@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "old_structure.md",
+                "file": "Вопросы.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "old_structure.md",
+                "file": "Вопросы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "old_structure.md",
+                "file": "Вопросы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "old_structure.md"
+                "file": "Вопросы.md"
               }
             }
           },
@@ -185,11 +185,11 @@
   "active": "9de64ceebded532a",
   "lastOpenFiles": [
     "README.md",
+    "Вопросы.md",
     "old_structure.md",
     "temp.md",
     "Старая.md",
     "тарая.md",
-    "Вопросы.md",
     "assets/max-date.jpg",
     "max-date.jpg",
     "calendar/Старая структура.md",
