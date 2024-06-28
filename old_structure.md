@@ -1,5 +1,7 @@
 <img src="assets/old_structure.jpg" width="280">
+
 #### mock дата
+
 
 ```js
 groups: [
