@@ -21,14 +21,14 @@ type Response = Day[]
 Day
 ```js
 {
-	date: "2024-04-29",
-	isDayOff: false,
-	events: [
-		{
-			title: "Отчет о движении средств",
-			description: "Уплата авансового платежа по налогу на..."
-		}
-	]
+  date: "2024-04-29",
+  isDayOff: false,
+  events: [
+	{
+	  title: "Отчет о движении средств",
+	  description: "Уплата авансового платежа по налогу на..."
+	}
+  ]
 }
 ```
 

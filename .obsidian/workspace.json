@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Вопросы.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c0f8ae10bb9820a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "old_structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Вопросы.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Вопросы.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Вопросы.md"
+                "file": "README.md"
               }
             }
           },
@@ -184,9 +196,10 @@
   },
   "active": "9de64ceebded532a",
   "lastOpenFiles": [
-    "README.md",
-    "Вопросы.md",
     "old_structure.md",
+    "Вопросы.md",
+    "README.md",
+    "assets/button.png",
     "temp.md",
     "Старая.md",
     "тарая.md",
@@ -196,7 +209,6 @@
     "calendar/README.md",
     "assets/old_add_google.png",
     "assets/old_structure.jpg",
-    "assets/Button.png",
     "assets",
     "calendar/Вопросы.md",
     "obsidian-calendar",
@@ -225,7 +237,6 @@
     "other/promts/art-prompts/art2.md",
     "other/promts/art-prompts/art3.md",
     "other/promts/art-prompts/sd jug.md",
-    "other/promts/dirty words.md",
     "tiktok",
     "other/ai talk/intimate/02.2024",
     "other/promts/art-prompts",
