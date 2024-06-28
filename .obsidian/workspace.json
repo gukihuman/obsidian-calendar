@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9de64ceebded532a",
+            "id": "1c69dde8296d34e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9de64ceebded532a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "old_structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "old_structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "old_structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "old_structure.md"
               }
             }
           },
@@ -171,8 +184,8 @@
   },
   "active": "9de64ceebded532a",
   "lastOpenFiles": [
-    "old_structure.md",
     "README.md",
+    "old_structure.md",
     "temp.md",
     "Старая.md",
     "тарая.md",
