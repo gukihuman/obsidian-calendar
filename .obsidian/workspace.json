@@ -11,8 +11,12 @@
             "id": "9de64ceebded532a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -93,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -163,12 +171,16 @@
   },
   "active": "9de64ceebded532a",
   "lastOpenFiles": [
+    "old_structure.md",
+    "README.md",
+    "temp.md",
+    "Старая.md",
+    "тарая.md",
+    "Вопросы.md",
+    "assets/max-date.jpg",
+    "max-date.jpg",
     "calendar/Старая структура.md",
     "calendar/README.md",
-    "Старая структура.md",
-    "Вопросы.md",
-    "temp.md",
-    "README.md",
     "assets/old_add_google.png",
     "assets/old_structure.jpg",
     "assets/Button.png",
@@ -183,8 +195,6 @@
     "calendar/temp.md",
     "calendar/assets/old_structure.jpg",
     "calendar/assets/Скриншот 27-06-2024 163552.jpg",
-    "calendar/assets/Скриншот 27-06-2024 160446.jpg",
-    "calendar/assets/Button.png",
     "calendar/assets",
     "calendar/New folder",
     "calendar",
@@ -203,8 +213,6 @@
     "other/promts/art-prompts/art3.md",
     "other/promts/art-prompts/sd jug.md",
     "other/promts/dirty words.md",
-    "other/ai talk/intimate/02.2024/bad words fun, full.md",
-    "other/promts/jailbreak.md",
     "tiktok",
     "other/ai talk/intimate/02.2024",
     "other/promts/art-prompts",
