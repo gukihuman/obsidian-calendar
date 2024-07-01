@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "AccountingCalendar/Marker.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "AccountingCalendar/Marker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "AccountingCalendar/Marker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md"
+                "file": "AccountingCalendar/Marker.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
+    "AccountingCalendar/TimeSelector/TimeSelector.md",
     "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/Body/Event.md",
@@ -199,7 +200,6 @@
     "assets/event_mobile.png",
     "assets/month_selector_mobile.png",
     "assets/Выбор месяца.png",
-    "AccountingCalendar/TimeSelector/TimeSelector.md",
     "AccountingCalendar/TimeSelector/Day.md",
     "assets/date.jpg",
     "assets/Скриншот 01-07-2024 151027.jpg",
