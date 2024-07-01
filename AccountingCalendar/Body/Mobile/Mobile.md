@@ -4,6 +4,8 @@ Parent: [AccountingCalendar](AccountingCalendar.md)
 
 <img src="../../../assets/mobile_body.png" width="300">
 
+[AccountingCalendarDate](Date.md)
+
 [AccountingCalendarMarker](../../Marker.md)
 
 BaseModal > [AccountingCalendarBodyMobileDay](Day.md)

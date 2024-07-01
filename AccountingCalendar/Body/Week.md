@@ -4,6 +4,8 @@ Parent: [AccountingCalendar](../AccountingCalendar.md)
 
 <img src="../../assets/week.png" width="600">
 
+[AccountingCalendarDate](Date.md)
+
 [AccountingCalendarBodyEvent](Event.md)
 
 [AccountingCalendarMarker](../Marker.md)

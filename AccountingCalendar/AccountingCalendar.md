@@ -21,5 +21,3 @@
 
 [AccountingCalendarBodyMobile](AccountingCalendar/Body/Mobile/Mobile.md)
 
-
-[AccountingCalendarDate](Date.md)

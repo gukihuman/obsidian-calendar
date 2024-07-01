@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions.md",
+                "file": "AccountingCalendar/BodySelector.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "questions.md",
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "questions.md",
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "questions.md"
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md"
               }
             }
           },
@@ -182,20 +181,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6c6d5d8880ee4219",
+  "active": "94d29509b9fc2602",
   "lastOpenFiles": [
-    "README.md",
+    "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Body/Mobile/Mobile.md",
     "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/Body/Month.md",
     "AccountingCalendar/Body/Event.md",
-    "AccountingCalendar/Marker.md",
     "AccountingCalendar/AccountingCalendar.md",
-    "AccountingCalendar/BodySelector.md",
     "AccountingCalendar/Body/Date.md",
+    "README.md",
+    "AccountingCalendar/BodySelector.md",
+    "questions.md",
+    "AccountingCalendar/Marker.md",
     "AccountingCalendar/Settings/List.md",
-    "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Settings/Mobile.md",
     "assets/marker.jpg",
     "assets/settings_list.png",
@@ -219,7 +219,6 @@
     "assets/Скриншот 01-07-2024 143048.jpg",
     "AccountingCalendar/BodySelector",
     "AccountingCalendar/Settings",
-    "questions.md",
     "old_structure.md",
     "AccountingCalendar/TimeSelector",
     "AccountingCalendar/Body",
