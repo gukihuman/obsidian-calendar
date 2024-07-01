@@ -7,8 +7,6 @@ Parents:
 
 [AccountingCalendarBodyMobile](Body/Mobile.md)
 
-![[event.png|350]]
+![[date.jpg|500]]
 
-<img src="../../assets/event.png" width="350">
-
-Компонент рисует данные одного выбранного эвента.
+<img src="..assets/date.jpg" width="500">

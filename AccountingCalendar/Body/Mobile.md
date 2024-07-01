@@ -6,4 +6,6 @@ Parent: [AccountingCalendar](../AccountingCalendar.md)
 
 BaseModal > [AccountingCalendarBodyEvent](Event.md)
 
+BaseModal > AccountingCalendarSettings
+
 Месяц, неделю и расписание, a также мобильную версию основной таблицы разбиваем на компоненты просто для того, чтобы не было загруженности стилей в одном компоненте
