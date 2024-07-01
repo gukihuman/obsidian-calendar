@@ -25,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Вопросы.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4c0f8ae10bb9820a",
+            "id": "9d8ee1b82ded3db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,16 +193,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9de64ceebded532a",
+  "active": "1c69dde8296d34e5",
   "lastOpenFiles": [
-    "old_structure.md",
     "Вопросы.md",
     "README.md",
-    "assets/button.png",
+    "assets/max_date.jpg",
+    "assets/add_google.png",
+    "old_structure.md",
+    "AccountingCalendar/BodyMonth.md",
+    "AccountingCalendar/BodyWeek.md",
+    "AccountingCalendar/BodyMobile.md",
+    "AccountingCalendar/BodySchedule.md",
+    "Month",
+    "AccountingCalendar/Body",
+    "AccountingCalendar",
     "temp.md",
     "Старая.md",
     "тарая.md",
-    "assets/max-date.jpg",
     "max-date.jpg",
     "calendar/Старая структура.md",
     "calendar/README.md",
@@ -233,14 +239,7 @@
     "other/promts/art-prompts/art5.md",
     "other/promts/art-prompts/avatar.md",
     "other/promts/art-prompts/sd art.md",
-    "other/ai talk/Untitled.md",
-    "other/promts/art-prompts/art2.md",
-    "other/promts/art-prompts/art3.md",
-    "other/promts/art-prompts/sd jug.md",
     "tiktok",
-    "other/ai talk/intimate/02.2024",
-    "other/promts/art-prompts",
-    "FiraCode.ttf",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
