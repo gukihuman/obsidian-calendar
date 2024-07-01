@@ -6,7 +6,7 @@
 
 ![[rules.png|550]]
 
-<img src="assets/add_google.png" width="550">
+<img src="assets/rules.png" width="550">
 
 ---
 #### API

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/Body/Date.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/Body/Date.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/Body/Date.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/Body/Date.md"
+                "file": "README.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
+    "AccountingCalendar/Body/Date.md",
     "AccountingCalendar/BodySelector.md",
     "AccountingCalendar/Marker.md",
     "README.md",
@@ -204,7 +205,6 @@
     "assets/mobile_day_events.png",
     "AccountingCalendar/TimeSelector/Month.md",
     "assets/event_mobile.png",
-    "AccountingCalendar/Body/Date.md",
     "assets/month_selector_mobile.png",
     "assets/Выбор месяца.png",
     "AccountingCalendar/TimeSelector/TimeSelector.md",
