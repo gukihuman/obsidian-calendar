@@ -9,4 +9,4 @@ Parents:
 
 ![[date.jpg|500]]
 
-<img src="../../assets/date.jpg" width="500">
+<img src="../../../assets/date.jpg" width="500">
