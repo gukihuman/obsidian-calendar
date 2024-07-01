@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/BodySelector.md",
+                "file": "AccountingCalendar/AccountingCalendar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/Day.md",
+                "file": "AccountingCalendar/AccountingCalendar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/Day.md",
+                "file": "AccountingCalendar/AccountingCalendar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/Day.md"
+                "file": "AccountingCalendar/AccountingCalendar.md"
               }
             }
           },
@@ -206,17 +206,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2eac78319775db4e",
+  "active": "53c6e2152ac22ce6",
   "lastOpenFiles": [
-    "AccountingCalendar/TimeSelector/TimeSelector.md",
+    "AccountingCalendar/Body/Week.md",
+    "AccountingCalendar/TimeSelector/Day.md",
     "AccountingCalendar/TimeSelector/Month.md",
     "AccountingCalendar/AccountingCalendar.md",
-    "AccountingCalendar/TimeSelector/Day.md",
+    "AccountingCalendar/BodySelector.md",
+    "assets/settings.jpg",
+    "assets/Скриншот 01-07-2024 143048.jpg",
+    "assets/body_selector.jpg",
+    "assets/Скриншот 01-07-2024 143030.jpg",
+    "AccountingCalendar/TimeSelector/TimeSelector.md",
     "AccountingCalendar/Settings/Mobile.md",
     "AccountingCalendar/Settings/Settings.md",
-    "AccountingCalendar/BodySelector.md",
     "AccountingCalendar/BodySelector",
-    "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/Body/Month.md",
     "AccountingCalendar/Body/Event.md",
@@ -230,12 +234,8 @@
     "README.md",
     "questions.md",
     "assets/calendar.png",
-    "assets/old_add_google.png",
     "old_structure.md",
-    "assets/day_selector.png",
-    "assets/image 9.png",
     "AccountingCalendar/TimeSelector",
-    "assets/month_selector.png",
     "AccountingCalendar/Body",
     "AccountingCalendar/Mobile/SettingsLayerTwo.md",
     "AccountingCalendar/Mobile",
@@ -253,7 +253,6 @@
     "2024-06-28.md",
     "calendar/Untitled.md",
     "calendar/temp.md",
-    "other/tiktok.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

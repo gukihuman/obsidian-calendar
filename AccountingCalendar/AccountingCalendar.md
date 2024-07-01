@@ -7,11 +7,11 @@
 
 [AccountingCalendarTimeSelector](TimeSelector/TimeSelector.md)
 
-
+[AccountingCalendarBodySelector](BodySelector.md)
 
 #### Тело
 
-AccountingCalendarBodyWeek
+[AccountingCalendarBodyWeek](Body/Week.md)
 
 AccountingCalendarBodyMonth *(default)*
 
