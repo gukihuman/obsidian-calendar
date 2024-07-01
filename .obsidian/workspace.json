@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68ee1be0b44a7d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/TimeSelector/Month.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70adc585c3a20242",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/TimeSelector/Month.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eac78319775db4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/TimeSelector/Day.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "53c6e2152ac22ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AccountingCalendar/Body/Event.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77b6f799d1c9f50f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,12 +182,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "53c6e2152ac22ce6",
+  "active": "77b6f799d1c9f50f",
   "lastOpenFiles": [
+    "AccountingCalendar/Body/Event.md",
+    "AccountingCalendar/Body/Mobile.md",
+    "AccountingCalendar/AccountingCalendar.md",
+    "AccountingCalendar/Body/Month.md",
     "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/TimeSelector/Day.md",
+    "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/TimeSelector/Month.md",
-    "AccountingCalendar/AccountingCalendar.md",
     "AccountingCalendar/BodySelector.md",
     "assets/settings.jpg",
     "assets/Скриншот 01-07-2024 143048.jpg",
@@ -221,10 +201,6 @@
     "AccountingCalendar/Settings/Mobile.md",
     "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/BodySelector",
-    "AccountingCalendar/Body/Schedule.md",
-    "AccountingCalendar/Body/Month.md",
-    "AccountingCalendar/Body/Event.md",
-    "AccountingCalendar/Body/Mobile.md",
     "AccountingCalendar/Settings",
     "assets/mobile_body.png",
     "assets/time_selector.jpg",
