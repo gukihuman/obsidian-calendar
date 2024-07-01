@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md",
+                "file": "AccountingCalendar/Mobile/SettingsLayerTwo.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md"
+                "file": "README.md"
               }
             }
           },
@@ -194,14 +193,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3f45908d14815e48",
+  "active": "1c69dde8296d34e5",
   "lastOpenFiles": [
+    "AccountingCalendar/Mobile/SettingsLayerTwo.md",
+    "AccountingCalendar/Mobile/SettingsLayerOne.md",
+    "assets/settings_layer_two.png",
     "README.md",
     "assets/settings_layer_one.png",
-    "AccountingCalendar/Mobile/SettingsLayerOne.md",
     "AccountingCalendar/Mobile/Body.md",
     "assets/rules.png",
-    "AccountingCalendar/Mobile/SettingsLayerTwo.md",
     "AccountingCalendar/Mobile",
     "Вопросы.md",
     "assets/max_date.jpg",
@@ -227,7 +227,6 @@
     "2024-06-28.md",
     "calendar/assets/old_add_google.png",
     "calendar/assets/q1.jpg",
-    "calendar/assets/Скриншот 28-06-2024 112616.jpg",
     "calendar/Untitled.md",
     "calendar/temp.md",
     "calendar/assets",
