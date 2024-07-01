@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/Marker.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/Marker.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/Marker.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/Marker.md"
+                "file": "AccountingCalendar/Body/Date.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
+    "AccountingCalendar/Marker.md",
     "AccountingCalendar/TimeSelector/TimeSelector.md",
     "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Body/Schedule.md",
@@ -183,7 +184,6 @@
     "AccountingCalendar/Body/Date.md",
     "AccountingCalendar/BodySelector.md",
     "questions.md",
-    "AccountingCalendar/Marker.md",
     "AccountingCalendar/Settings/List.md",
     "AccountingCalendar/Settings/Mobile.md",
     "assets/marker.jpg",
