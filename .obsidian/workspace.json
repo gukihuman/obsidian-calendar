@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/AccountingCalendar.md",
+                "file": "AccountingCalendar/TimeSelector/Month.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/TimeSelector/Month.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2eac78319775db4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AccountingCalendar/TimeSelector/Day.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53c6e2152ac22ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AccountingCalendar/BodySelector.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/TimeSelector/Day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/TimeSelector/Day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AccountingCalendar/TimeSelector/Day.md"
               }
             }
           },
@@ -182,35 +206,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70adc585c3a20242",
+  "active": "2eac78319775db4e",
   "lastOpenFiles": [
-    "assets/old_add_google.png",
-    "README.md",
-    "AccountingCalendar/Event.md",
-    "AccountingCalendar/Settings.md",
-    "questions.md",
-    "old_structure.md",
+    "AccountingCalendar/TimeSelector/TimeSelector.md",
+    "AccountingCalendar/TimeSelector/Month.md",
     "AccountingCalendar/AccountingCalendar.md",
-    "AccountingCalendar/Mobile/Body.md",
-    "AccountingCalendar/Mobile/Settings.md",
-    "AccountingCalendar/Selector/Month.md",
-    "AccountingCalendar/Selector/Day.md",
-    "assets/day_selector.png",
-    "assets/image 9.png",
-    "AccountingCalendar/Selector",
-    "assets/month_selector.png",
-    "assets/event.png",
-    "assets/month.png",
-    "assets/week.png",
-    "assets/schedule.png",
-    "AccountingCalendar/Body/Month.md",
+    "AccountingCalendar/TimeSelector/Day.md",
+    "AccountingCalendar/Settings/Mobile.md",
+    "AccountingCalendar/Settings/Settings.md",
+    "AccountingCalendar/BodySelector.md",
+    "AccountingCalendar/BodySelector",
     "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/Body/Schedule.md",
+    "AccountingCalendar/Body/Month.md",
+    "AccountingCalendar/Body/Event.md",
+    "AccountingCalendar/Body/Mobile.md",
+    "AccountingCalendar/Settings",
+    "assets/mobile_body.png",
+    "assets/time_selector.jpg",
+    "assets/Скриншот 01-07-2024 141205.jpg",
+    "assets/time_selector.png",
+    "assets/Frame 515269.png",
+    "README.md",
+    "questions.md",
+    "assets/calendar.png",
+    "assets/old_add_google.png",
+    "old_structure.md",
+    "assets/day_selector.png",
+    "assets/image 9.png",
+    "AccountingCalendar/TimeSelector",
+    "assets/month_selector.png",
     "AccountingCalendar/Body",
     "AccountingCalendar/Mobile/SettingsLayerTwo.md",
-    "assets/settings_layer_two.png",
-    "assets/settings_layer_one.png",
-    "assets/rules.png",
     "AccountingCalendar/Mobile",
     "Month",
     "AccountingCalendar/Body",
@@ -226,10 +253,7 @@
     "2024-06-28.md",
     "calendar/Untitled.md",
     "calendar/temp.md",
-    "calendar/assets",
-    "calendar/New folder",
     "other/tiktok.md",
-    "other/promts/art-prompts/sd3 raw.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
