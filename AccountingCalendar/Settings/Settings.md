@@ -6,6 +6,6 @@
 
 [AccountingCalendarSettingsList](List.md)
 
-[AccountingCalendarSettingsMobile](AccountingCalendar/Settings/Mobile.md)
+[AccountingCalendarSettingsMobile](Mobile.md)
 
 Показывает лист с натройками при нажатии
