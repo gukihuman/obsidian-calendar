@@ -4,4 +4,4 @@
 
 <img src="../../assets/settings.jpg" width="300">
 
-[AccountingCalendarSettingsMobile](Mobile.md)
+[AccountingCalendarSettingsMobile](AccountingCalendar/Settings/Mobile.md)

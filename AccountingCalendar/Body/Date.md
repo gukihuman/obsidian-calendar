@@ -5,7 +5,7 @@ Parents:
 
 [AccountingCalendarBodySchedule](Body/Schedule.md)
 
-[AccountingCalendarBodyMobile](Body/Mobile.md)
+[AccountingCalendarBodyMobile](AccountingCalendar/Body/Mobile/Mobile.md)
 
 ![[date.jpg|500]]
 

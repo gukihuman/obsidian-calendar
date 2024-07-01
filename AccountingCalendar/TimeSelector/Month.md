@@ -16,7 +16,7 @@ Parent: [AccountingCalendarTimeSelector](TimeSelector.md)
 
 ---
 
-На мобилке:
+#### mobile
 
 ![[month_selector_mobile.png|300]]
 

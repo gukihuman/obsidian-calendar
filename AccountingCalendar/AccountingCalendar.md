@@ -19,7 +19,7 @@
 
 [AccountingCalendarBodySchedule](Body/Schedule.md)
 
-[AccountingCalendarBodyMobile](Body/Mobile.md)
+[AccountingCalendarBodyMobile](AccountingCalendar/Body/Mobile/Mobile.md)
 
 
 [AccountingCalendarDate](Date.md)

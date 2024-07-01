@@ -8,10 +8,8 @@ Parent: [AccountingCalendarSettings](Settings.md)
 
 <img src="../../assets/settings_layer_two.png" width="300">
 
-BaseModal
+BaseModal >  UiDropDownMenuNoScroll
 
-UiDropDownMenuNoScroll
-
-UiDropDownMenu
+BaseModal >  UiDropDownMenu
 
 Эмитит обьект фильтров с выбранными данными при закрытии.
