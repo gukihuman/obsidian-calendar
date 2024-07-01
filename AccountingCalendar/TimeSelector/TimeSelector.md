@@ -6,6 +6,6 @@
 
 [TimeSelectorMonth](Month.md)
 
-[TimeSelectorDay](AccountingCalendar/TimeSelector/Day.md)
+[TimeSelectorDay](Day.md)
 
 BaseModal > [TimeSelectorMonth](Month.md) (*mobile*)
