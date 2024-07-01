@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "9de64ceebded532a",
+            "id": "3f45908d14815e48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Вопросы.md",
+                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9d8ee1b82ded3db3",
+            "id": "cb4ba3123cce6cfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "old_structure.md",
+                "file": "AccountingCalendar/Mobile/SettingsLayerOne.md",
                 "mode": "source",
                 "source": false
               }
@@ -195,14 +195,19 @@
   },
   "active": "1c69dde8296d34e5",
   "lastOpenFiles": [
-    "Вопросы.md",
+    "AccountingCalendar/Mobile/SettingsLayerOne.md",
     "README.md",
+    "AccountingCalendar/Mobile/Body.md",
+    "assets/rules.png",
+    "assets/settngs_layer_one.png",
+    "AccountingCalendar/Mobile/SettingsLayerTwo.md",
+    "AccountingCalendar/Mobile",
+    "Вопросы.md",
     "assets/max_date.jpg",
     "assets/add_google.png",
     "old_structure.md",
     "AccountingCalendar/BodyMonth.md",
     "AccountingCalendar/BodyWeek.md",
-    "AccountingCalendar/BodyMobile.md",
     "AccountingCalendar/BodySchedule.md",
     "Month",
     "AccountingCalendar/Body",
@@ -224,8 +229,6 @@
     "calendar/assets/Скриншот 28-06-2024 112616.jpg",
     "calendar/Untitled.md",
     "calendar/temp.md",
-    "calendar/assets/old_structure.jpg",
-    "calendar/assets/Скриншот 27-06-2024 163552.jpg",
     "calendar/assets",
     "calendar/New folder",
     "calendar",
@@ -237,9 +240,6 @@
     "other/promts/art-prompts/sd pony 2.md",
     "other/promts/art-prompts/art system.md",
     "other/promts/art-prompts/art5.md",
-    "other/promts/art-prompts/avatar.md",
-    "other/promts/art-prompts/sd art.md",
-    "tiktok",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
