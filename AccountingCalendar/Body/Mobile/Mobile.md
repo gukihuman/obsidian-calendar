@@ -1,4 +1,4 @@
-Parent: [AccountingCalendar](AccountingCalendar.md)
+Parent: [AccountingCalendar](../../AccountingCalendar.md)
 
 ![[mobile_body.png|300]]
 
