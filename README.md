@@ -3,7 +3,7 @@
 
 [старая структура](old_structure.md)
 
-Основной компонент: [AccountingCalendar](AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
+Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
 ![[rules.png|550]]
 
