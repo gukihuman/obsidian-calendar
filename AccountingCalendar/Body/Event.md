@@ -1,11 +1,11 @@
 Parents:
-[AccountingCalendarBodyWeek](Body/Week.md)
+[AccountingCalendarBodyWeek](Week.md)
 
-[AccountingCalendarBodyMonth](Body/Month.md)
+[AccountingCalendarBodyMonth](Month.md)
 
-[AccountingCalendarBodySchedule](Body/Schedule.md)
+[AccountingCalendarBodySchedule](Schedule.md)
 
-[AccountingCalendarBodyMobileDay](AccountingCalendar/Body/Mobile/Day.md)
+[AccountingCalendarBodyMobileDay](Mobile/Day.md)
 
 ![[event.png|350]]
 
