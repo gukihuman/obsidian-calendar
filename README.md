@@ -53,3 +53,5 @@ AccountingCalendar
 Есть состояние ограничивающее перелистывание вперед. Предлагаю ограничивать следующим годом.
 
 <img src="assets/max_date.jpg" width="300">
+
+![](settings_layer_one.png)
