@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/Selector/Month.md",
+                "file": "AccountingCalendar/AccountingCalendar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70adc585c3a20242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/Selector/Month.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/Selector/Month.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/Selector/Month.md"
+                "file": "README.md"
               }
             }
           },
@@ -169,18 +182,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "68ee1be0b44a7d6c",
+  "active": "70adc585c3a20242",
   "lastOpenFiles": [
-    "AccountingCalendar/Selector/Day.md",
+    "assets/old_add_google.png",
     "README.md",
-    "questions.md",
-    "AccountingCalendar/AccountingCalendar.md",
     "AccountingCalendar/Event.md",
+    "AccountingCalendar/Settings.md",
+    "questions.md",
+    "old_structure.md",
+    "AccountingCalendar/AccountingCalendar.md",
+    "AccountingCalendar/Mobile/Body.md",
+    "AccountingCalendar/Mobile/Settings.md",
+    "AccountingCalendar/Selector/Month.md",
+    "AccountingCalendar/Selector/Day.md",
     "assets/day_selector.png",
     "assets/image 9.png",
-    "AccountingCalendar/Selector/Month.md",
     "AccountingCalendar/Selector",
-    "old_structure.md",
     "assets/month_selector.png",
     "assets/event.png",
     "assets/month.png",
@@ -190,11 +207,9 @@
     "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/Body",
-    "AccountingCalendar/Mobile/Settings.md",
     "AccountingCalendar/Mobile/SettingsLayerTwo.md",
     "assets/settings_layer_two.png",
     "assets/settings_layer_one.png",
-    "AccountingCalendar/Mobile/Body.md",
     "assets/rules.png",
     "AccountingCalendar/Mobile",
     "Month",
@@ -215,7 +230,6 @@
     "calendar/New folder",
     "other/tiktok.md",
     "other/promts/art-prompts/sd3 raw.md",
-    "other/promts/art-prompts/art4.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

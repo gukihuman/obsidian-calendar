@@ -8,3 +8,4 @@ AccountingCalendarBodyWeek
 AccountingCalendarBodyMonth *(default)*
 
 AccountingCalendarBodySchedule
+
