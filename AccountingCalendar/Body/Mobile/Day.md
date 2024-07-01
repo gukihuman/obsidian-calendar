@@ -1,5 +1,5 @@
 
-Parent: [AccountingCalendarBodyMobile](AccountingCalendar/Body/Mobile/Mobile.md)
+Parent: [AccountingCalendarBodyMobile](Mobile.md)
 
 ![[mobile_day_events.png|300]]
 
