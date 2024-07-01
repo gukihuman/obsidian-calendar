@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AccountingCalendar/Body/Mobile/Mobile.md"
               }
             }
           },
@@ -183,12 +183,17 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
-    "AccountingCalendar/Body/Date.md",
-    "AccountingCalendar/BodySelector.md",
-    "AccountingCalendar/Marker.md",
-    "README.md",
-    "AccountingCalendar/Settings/List.md",
+    "AccountingCalendar/Body/Week.md",
+    "AccountingCalendar/Body/Mobile/Mobile.md",
+    "AccountingCalendar/Body/Schedule.md",
+    "AccountingCalendar/Body/Month.md",
     "AccountingCalendar/Body/Event.md",
+    "AccountingCalendar/Marker.md",
+    "AccountingCalendar/AccountingCalendar.md",
+    "AccountingCalendar/BodySelector.md",
+    "README.md",
+    "AccountingCalendar/Body/Date.md",
+    "AccountingCalendar/Settings/List.md",
     "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Settings/Mobile.md",
     "assets/marker.jpg",
@@ -199,9 +204,7 @@
     "Mobile/Mobile/Day.md",
     "Mobile/Mobile",
     "Mobile",
-    "AccountingCalendar/Body/Mobile/Mobile.md",
     "AccountingCalendar/Body/Mobile",
-    "AccountingCalendar/Body/Month.md",
     "assets/mobile_day_events.png",
     "AccountingCalendar/TimeSelector/Month.md",
     "assets/event_mobile.png",
@@ -209,11 +212,8 @@
     "assets/Выбор месяца.png",
     "AccountingCalendar/TimeSelector/TimeSelector.md",
     "AccountingCalendar/TimeSelector/Day.md",
-    "AccountingCalendar/Body/Week.md",
-    "AccountingCalendar/Body/Schedule.md",
     "assets/date.jpg",
     "assets/Скриншот 01-07-2024 151027.jpg",
-    "AccountingCalendar/AccountingCalendar.md",
     "assets/settings.jpg",
     "assets/Скриншот 01-07-2024 143048.jpg",
     "AccountingCalendar/BodySelector",
