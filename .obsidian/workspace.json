@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad2a57746dc1b81c",
+            "id": "68ee1be0b44a7d6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "68ee1be0b44a7d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/AccountingCalendar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/AccountingCalendar.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/AccountingCalendar.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/AccountingCalendar.md"
+                "file": "README.md"
               }
             }
           },
@@ -184,16 +171,16 @@
   },
   "active": "68ee1be0b44a7d6c",
   "lastOpenFiles": [
-    "AccountingCalendar/Event.md",
+    "questions.md",
+    "README.md",
     "AccountingCalendar/AccountingCalendar.md",
+    "AccountingCalendar/Event.md",
     "AccountingCalendar/Selector/Day.md",
     "assets/day_selector.png",
     "assets/image 9.png",
     "AccountingCalendar/Selector/Month.md",
     "AccountingCalendar/Selector",
-    "README.md",
     "old_structure.md",
-    "questions.md",
     "assets/month_selector.png",
     "assets/event.png",
     "assets/month.png",
