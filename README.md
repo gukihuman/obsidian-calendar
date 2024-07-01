@@ -33,25 +33,24 @@ Day
 {
   date: "2024-04-29",
   isDayOff: false, // выходные и праздники
-  buhEvents: [
+  events: [
     {
       title: "Отчет о движении средств",
       description: "Уплата авансового платежа по налогу на...",
-      reportCategories: ['По сотрудникам', '], // виды отчетности
+      mainCategory: 'buh', // задается в админке специально для календаря
+      reportCategories: ['По сотрудникам', 'Алкогольная'], // виды отчетности
       controllingAuthority: [''], // контролирующий орган
-      taxSystem: [''], // система налогооблажения
-    }
-  ],
-  klerkEvents: [
+      taxSystem: ['ПФР'], // система налогооблажения
+    },
     {
       title: "Отчет о движении средств",
       description: "Уплата авансового платежа по налогу на...",
-    }
-  ],
-  personalEvents: [
+      mainCategory: 'klerk' // мероприятия Клерк
+    },
     {
       title: "Отчет о движении средств",
       description: "Уплата авансового платежа по налогу на...",
+      mainCategory: 'personal' // персональные события
     }
   ],
 }
@@ -65,6 +64,7 @@ Day
 type ReportCategories = 'Бухгалтерская и налоговая' | 'По сотрудникам' | 'Статистическая' | 'Экологическая' | 'Алкогольная'
 type controllingAuthority = 'ПФР' | 'РПН' | 'Росстат' | 'ФНС' | 'ФСС' | 'ФСРАР' | 'СФР'
 type taxSystem = 'ОСНО' | 'УСН' | 'ПСН' | 'ЕСХН'
+type mainCategory = 'buh' | 'klerk' | 'personal'
 ```
 
 ---

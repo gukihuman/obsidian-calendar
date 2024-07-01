@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "53c6e2152ac22ce6",
+            "id": "94d29509b9fc2602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/Body/Event.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "77b6f799d1c9f50f",
+            "id": "6c6d5d8880ee4219",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/Month.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eeb6c42232e62873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/Body/Event.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "726306456b2ed1f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AccountingCalendar/Body/Mobile/Day.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/Body/Mobile/Day.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/Body/Mobile/Day.md",
+                "file": "AccountingCalendar/Body/Date.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/Body/Mobile/Day.md"
+                "file": "AccountingCalendar/Body/Date.md"
               }
             }
           },
@@ -206,23 +181,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "726306456b2ed1f6",
+  "active": "94d29509b9fc2602",
   "lastOpenFiles": [
+    "AccountingCalendar/BodySelector.md",
+    "AccountingCalendar/Marker.md",
+    "README.md",
+    "AccountingCalendar/Settings/List.md",
     "AccountingCalendar/Body/Event.md",
+    "AccountingCalendar/Settings/Settings.md",
+    "AccountingCalendar/Settings/Mobile.md",
+    "assets/marker.jpg",
+    "assets/settings_list.png",
+    "AccountingCalendar/Body/Mobile/Day.md",
     "AccountingCalendar/Body/Mobile/Mobile/Day.md",
     "AccountingCalendar/Body/Mobile/Mobile",
     "Mobile/Mobile/Day.md",
     "Mobile/Mobile",
     "Mobile",
-    "AccountingCalendar/Body/Mobile/Day.md",
     "AccountingCalendar/Body/Mobile/Mobile.md",
     "AccountingCalendar/Body/Mobile",
     "AccountingCalendar/Body/Month.md",
-    "AccountingCalendar/Settings/Settings.md",
     "assets/mobile_day_events.png",
-    "AccountingCalendar/Settings/Mobile.md",
     "AccountingCalendar/TimeSelector/Month.md",
-    "AccountingCalendar/BodySelector.md",
     "assets/event_mobile.png",
     "AccountingCalendar/Body/Date.md",
     "assets/month_selector_mobile.png",
@@ -236,11 +216,8 @@
     "AccountingCalendar/AccountingCalendar.md",
     "assets/settings.jpg",
     "assets/Скриншот 01-07-2024 143048.jpg",
-    "assets/body_selector.jpg",
-    "assets/Скриншот 01-07-2024 143030.jpg",
     "AccountingCalendar/BodySelector",
     "AccountingCalendar/Settings",
-    "README.md",
     "questions.md",
     "old_structure.md",
     "AccountingCalendar/TimeSelector",
@@ -251,9 +228,6 @@
     "temp.md",
     "Старая.md",
     "тарая.md",
-    "calendar/Старая структура.md",
-    "calendar/README.md",
-    "calendar/Вопросы.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
