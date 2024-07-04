@@ -1,4 +1,3 @@
-
 Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
 ---
