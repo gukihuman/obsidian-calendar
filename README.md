@@ -162,6 +162,7 @@ const response: Layer[] = [
 id и цвет слоя, задаем на фронте по макету
 ```ts
 const colorLayerMap = {
+  default: 'grey-500', // если не нашли id или не указан
   1: 'red-500',
   2: 'green-500',
   3: 'blue-500',
