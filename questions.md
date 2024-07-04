@@ -1,4 +1,8 @@
 
+Нужен ли localStorage для запоминания состояния фильтров?
+
+---
+
 ![[add_google.png|320]]
 
 <img src="assets/add_google.png" width="320">

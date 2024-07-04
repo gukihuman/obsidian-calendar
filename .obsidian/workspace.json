@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AccountingCalendar/TimeSelector/TimeSelector.md"
+                "file": "README.md"
               }
             }
           },
@@ -171,20 +171,27 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
-    "AccountingCalendar/Settings/Settings.md",
-    "AccountingCalendar/Body/Date.md",
-    "AccountingCalendar/Body/Month.md",
-    "AccountingCalendar/Body/Schedule.md",
-    "AccountingCalendar/Body/Event.md",
-    "AccountingCalendar/Marker.md",
+    "assets/buh_layer.jpg",
+    "assets/Скриншот 04-07-2024 122916.jpg",
     "questions.md",
     "README.md",
+    "old_structure.md",
+    "AccountingCalendar/Marker.md",
+    "AccountingCalendar/BodySelector.md",
+    "AccountingCalendar/TimeSelector/Month.md",
+    "AccountingCalendar/Body/Month.md",
+    "AccountingCalendar/AccountingCalendar.md",
+    "AccountingCalendar/TimeSelector/TimeSelector.md",
+    "assets/layer_segment_0",
+    "assets/layer_segment.png",
+    "assets/Monosnap Виджет  календаря – Figma - Google Chrome.png",
+    "AccountingCalendar/Settings/Settings.md",
+    "AccountingCalendar/Body/Date.md",
+    "AccountingCalendar/Body/Schedule.md",
+    "AccountingCalendar/Body/Event.md",
     "AccountingCalendar/Body/Mobile/Mobile.md",
     "AccountingCalendar/Body/Mobile/Day.md",
-    "AccountingCalendar/TimeSelector/TimeSelector.md",
-    "AccountingCalendar/AccountingCalendar.md",
     "AccountingCalendar/Body/Week.md",
-    "AccountingCalendar/BodySelector.md",
     "AccountingCalendar/Settings/List.md",
     "AccountingCalendar/Settings/Mobile.md",
     "assets/marker.jpg",
@@ -196,23 +203,17 @@
     "Mobile",
     "AccountingCalendar/Body/Mobile",
     "assets/mobile_day_events.png",
-    "AccountingCalendar/TimeSelector/Month.md",
     "assets/event_mobile.png",
     "assets/month_selector_mobile.png",
     "assets/Выбор месяца.png",
     "AccountingCalendar/TimeSelector/Day.md",
     "assets/date.jpg",
-    "assets/Скриншот 01-07-2024 151027.jpg",
-    "assets/settings.jpg",
-    "assets/Скриншот 01-07-2024 143048.jpg",
     "AccountingCalendar/BodySelector",
     "AccountingCalendar/Settings",
-    "old_structure.md",
     "AccountingCalendar/TimeSelector",
     "AccountingCalendar/Body",
     "AccountingCalendar/Mobile/SettingsLayerTwo.md",
     "AccountingCalendar/Mobile",
-    "Month",
     "temp.md",
     "Старая.md",
     "тарая.md",
