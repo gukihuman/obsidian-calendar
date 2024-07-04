@@ -46,7 +46,7 @@ type SelectedFilters = number | [number, SelectedFilters[]]
 
 ![[buh_layer.jpg|600]]
 
-<img src="assets/buh_layer.png" width="600">
+<img src="assets/buh_layer.jpg" width="600">
 
 ---
 #### id
