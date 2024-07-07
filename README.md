@@ -1,11 +1,15 @@
 #### Начальный запрос справочников
 
 ```
-v4/calendar-info?fields=layers,groups
+v4/calendar-info 
 ```
 
 ```
 fields = layers,groups
+```
+
+```
+v4/calendar-info?fields=layers,groups
 ```
 
 ```ts
@@ -67,7 +71,7 @@ const responseInfo: ResponseInfo = {
 #### Последующий запрос эвентов
 
 ```
-v4/calendar-events?start=2024-04-29&end=2024-06-02&layers=1,2,3,4&groups=1,2,3,4,5
+v4/calendar-events
 ```
 
 ```
@@ -75,6 +79,10 @@ startDate = 2024-04-29
 endDate = 2024-06-02
 layers = 1,2,3
 groups = 1,2,3,4,5
+```
+
+```
+v4/calendar-events?start=2024-04-29&end=2024-06-02&layers=1,2,3,4&groups=1,2,3,4,5
 ```
 
 ```ts
