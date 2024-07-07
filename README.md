@@ -66,8 +66,6 @@ const responseInfo: ResponseInfo = {
 ---
 #### Последующий запрос эвентов
 
----
-
 ```
 v4/calendar-events?start=2024-04-29&end=2024-06-02&layers=1,2,3,4&groups=1,2,3,4,5
 ```
@@ -142,8 +140,10 @@ const colorLayerMap = {
 
 ---
 
+- [Дорожная карта](road_map.md)
+
 - [Вопросы](questions.md)
 
 - [Старая структура](old_structure.md)
 
-- [Дорожная карта](road_map.md)
+- [Старое ридми 01](old_readme_01.md)
