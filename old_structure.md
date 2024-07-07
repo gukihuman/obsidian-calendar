@@ -1,3 +1,8 @@
+
+#### [План](README.md)
+
+---
+
 ![[old_structure.jpg|280]]
 
 <img src="assets/old_structure.jpg" width="280">

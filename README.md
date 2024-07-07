@@ -1,163 +1,132 @@
-Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
+#### Начальный запрос справочников
 
----
-#### Основные типы
+```
+v4/calendar-info?fields=layers,groups
+```
+
+```
+fields = layers,groups
+```
 
 ```ts
-// Памятка на фронте, чтобы понимать, какие слои запрашиваем
-// 1: Выходные
-// 2: Мероприятия Клерк
-// 3: Персональные события
-// 4: Бухгалтерские события
-
-// так выглядит адрес фронта с фильтрами
-// /...calendar?filters=1,[3,[1,[2,[1,3]]]]
-
-type Filter = {
+export type Info = {
   id: number
   title: string
-  filters?: Filter[]
 }
-
-interface Layer extends Filter {
-  // по умолчанию слой тоже фильтр, если игнорируем, то на первый уровень
-  // фильтрации сразу подставляются дочерние фильтры
-  ignoreLayerFilter?: boolean
-  events?: LayerEvent[]
+export interface GroupsInfo extends Info {
+  layerId: number
+  catId: number | null
 }
+export type ResponseInfo = {
+  layers: Info[]
+  groups: {
+    items: GroupsInfo[]
+    categories: Info[]
+  }
+}
+const responseInfo: ResponseInfo = {
+  layers: [
+    { id: 1, title: 'Выходные' },
+    { id: 2, title: 'Мероприятия Клерк' },
+    { id: 3, title: 'Персональные события' },
+    { id: 4, title: 'Отчетность' },
+  ],
+  groups: {
+    items: [
+      { id: 1, layerId: 2, catId: null, title: 'Вебинары' },
+      { id: 2, layerId: 2, catId: null, title: 'Онлайн-курсы' },
+      { id: 3, layerId: 2, catId: null, title: 'Курсы повышения квалификации' },
+      { id: 4, layerId: 4, catId: 1, title: 'Бухгалтерская и налоговая' },
+      { id: 5, layerId: 4, catId: 1, title: 'По сотрудникам' },
+      { id: 6, layerId: 4, catId: 1, title: 'Статистическая' },
+      { id: 7, layerId: 4, catId: 1, title: 'Экологическая' },
+      { id: 8, layerId: 4, catId: 1, title: 'Алкогольная' },
+      { id: 9, layerId: 4, catId: 2, title: 'ПФР' },
+      { id: 10, layerId: 4, catId: 2, title: 'РПН' },
+      { id: 11, layerId: 4, catId: 2, title: 'ФНС' },
+      { id: 12, layerId: 4, catId: 2, title: 'ФСС' },
+      { id: 13, layerId: 4, catId: 2, title: 'ФСРАР' },
+      { id: 14, layerId: 4, catId: 2, title: 'СФР' },
+      { id: 15, layerId: 4, catId: 3, title: 'ОСНО' },
+      { id: 16, layerId: 4, catId: 3, title: 'УСН' },
+      { id: 17, layerId: 4, catId: 3, title: 'ПСН' },
+      { id: 18, layerId: 4, catId: 3, title: 'ЕСХН' },
+    ],
+    categories: [
+      { id: 1, title: 'Виды отчетности' },
+      { id: 2, title: 'Контролирующий орган' },
+      { id: 3, title: 'Система налогооблажения' },
+    ],
+  },
+}
+```
 
-type LayerEvent = {
+При добавлении новых слоев, групп и категорий лучше вегда использовать новые id'шники, даже если есть пропущенные числа после удаления старых фильтров, т.к. состояния фильтров могут быть сохранены у пользователя в ссылке
+
+---
+#### Последующий запрос эвентов
+
+---
+
+```
+v4/calendar-events?start=2024-04-29&end=2024-06-02&layers=1,2,3,4&groups=1,2,3,4,5
+```
+
+```
+startDate = 2024-04-29
+endDate = 2024-06-02
+layers = 1,2,3
+groups = 1,2,3,4,5
+```
+
+```ts
+export type CalendarEvents = {
+  layerId: number // хоть и фильтруем уже в запросе, id слоя нужен для цвета
+  groupIds?: number[] // нужно для отображения группы в карточке события - "УСН"
   date: string // тип Date, но фетчится как string
   title?: string
   description?: string
-  selectedFilters?: SelectedFilters[]
 }
-
-// либо только id фильтрa, тогда событие относится ко всему фильтру целиком
-// либо id фильтра и массив конфигураций дочерних фильтров
-type SelectedFilters = number | [number, SelectedFilters[]]
-```
-
-
-> ignoreLayerFilter
-
-По умолчанию слой тоже фильтр, если игнорируем, то на первый уровень фильтрации сразу подставляются дочерние фильтры
-
-![[buh_layer.jpg|600]]
-
-<img src="assets/buh_layer.jpg" width="600">
-
----
-#### API
-
-Основной адрес API
-```
-v4/accounting-calendar
-```
-
-Параметры API
-```
-startDate = "2024-04-29"
-endDate = "2024-06-02"
-```
-
-Запрашиваем с бэка v4/accounting-calendar?layers=1,2,3,4
-```ts
-const response: Layer[] = [
+const responseEvents: CalendarEvents[] = [
+  { layerId: 1, date: '2024-06-15' },
+  { layerId: 1, date: '2024-06-16' },
+  { layerId: 1, date: '2024-06-22' },
+  { layerId: 1, date: '2024-06-23' },
   {
-    id: 1,
-    title: 'Выходные',
-    events: [
-      { date: '2024-06-15' },
-      { date: '2024-06-16' },
-      { date: '2024-06-22' },
-      { date: '2024-06-23' },
-    ],
+    layerId: 2,
+    groupIds: [1],
+    date: '2024-06-10',
+    title: 'Название вебинара',
+    description: 'Описание вебинара',
   },
   {
-    id: 2,
-    title: 'Мероприятия Клерк',
-    filters: [
-      { id: 1, title: 'Вебинары' },
-      { id: 2, title: 'Онлайн-курсы' },
-      { id: 3, title: 'Курсы повышения квалификации' },
-    ],
-    events: [
-      {
-        date: '2024-06-10',
-        title: 'Название вебинара',
-        description: 'Описание вебинара',
-        selectedFilters: [1],
-      },
-      {
-        date: '2024-06-12',
-        title: 'Название курса повышения квалификации',
-        description: 'Описание курса повышения квалификации',
-        selectedFilters: [3],
-      },
-    ],
+    layerId: 2,
+    groupIds: [3],
+    date: '2024-06-12',
+    title: 'Название курса повышения квалификации',
+    description: 'Описание курса повышения квалификации',
   },
   {
-    id: 3,
-    title: 'Персональные события',
-    events: [
-      {
-        date: '2024-06-15',
-        title: 'Название персонального события',
-        description: 'Описание персонального события',
-      },
-    ],
+    layerId: 3,
+    date: '2024-06-15',
+    title: 'Название персонального события',
+    description: 'Описание персонального события',
   },
   {
-    id: 4,
-    title: 'Бухгалтерские события',
-    ignoreLayerFilter: true,
-    filters: [
-      {
-        id: 1,
-        title: 'Виды отчетности',
-        filters: [
-          { id: 1, title: 'Бухгалтерская и налоговая' },
-          { id: 2, title: 'По сотрудникам' },
-          { id: 3, title: 'Статистическая' },
-          { id: 4, title: 'Экологическая' },
-          { id: 5, title: 'Алкогольная' },
-        ],
-      },
-      {
-        id: 2,
-        title: 'Контролирующий орган',
-        filters: [
-          { id: 1, title: 'ПФР' },
-          { id: 2, title: 'РПН' },
-          { id: 3, title: 'ФНС' },
-          { id: 4, title: 'ФСС' },
-          { id: 5, title: 'ФСРАР' },
-          { id: 6, title: 'СФР' },
-        ],
-      },
-      {
-        id: 3,
-        title: 'Система налогооблажения',
-        filters: [
-          { id: 1, title: 'ОСНО' },
-          { id: 2, title: 'УСН' },
-          { id: 3, title: 'ПСН' },
-          { id: 4, title: 'ЕСХН' },
-        ],
-      },
-    ],
-    events: [
-      {
-        date: '2024-06-07',
-        title: 'Название бухгалтерского события',
-        description: 'Относится ко всем видам отчетности, орган ПФР и ФНС',
-        selectedFilters: [1, [2, [1, 3]]],
-      },
-    ],
+    layerId: 4,
+    groupIds: [5, 9, 11],
+    date: '2024-06-07',
+    title: 'Название отчета',
+    description: 'Относится ко отчетности по сотрудникам, орган ПФР и ФНС',
   },
 ]
 ```
+
+Фильтруем эвенты на бэке по layerId и groupsIds, указанным в параметрах API. Если указан слой без групп - возвращаем все эвенты слоя (например, выходные), в остальных случаях только эвенты указанных групп
+
+---
+
+Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
 id и цвет слоя, задаем на фронте по макету
 ```ts
@@ -172,67 +141,9 @@ const colorLayerMap = {
 
 
 ---
-#### id
 
-Поле **id** используется для сохранения состояния фильтров, апи запросов на бэк, и в адресной строке на фронте для сохранения фильтров
+- [Вопросы](questions.md)
 
-```ts
-type Filter = {
-  id: number
-  title: string
-  ...
-}
+- [Старая структура](old_structure.md)
 
-{
-  id: 2,
-  title: "Мероприятия Клерк"
-  ...
-}
-  
-// так выглядит адрес фронта с фильтрами
-".../calendar?filters=1,[3,[1,[2,[1,3]]]]"
-```
-
-Как вариант вместо числовых id - строки на английском:
-
-```ts
-type Layer = {
-  token: string // или также id но string
-  title: string
-  ...
-}
-
-{
-  token: "klerkEvents",
-  title: "Мероприятия Клерк"
-  ...
-}
-
-// так выглядит адрес фронта с фильтрами
-".../calendar?filters=dayOff,[buhEvents,[reportTypes,[ecology,alcogol]]"
-```
-
-При добавлении новых фильтров лучше вегда использовать новые id'шники, даже если есть пропущенные числа после удаления старых фильтров, т.к. состояния фильтров могут быть сохранены у пользователей в ссылке
-
----
-
-[вопросы](questions.md)
-
-[старая структура](old_structure.md)
-
----
-#### Дорожная карта втреч
-
-1:
-- формат данных по апи
-- структура компонентов
-
-2:
-- фетчинг / обработка данных
-- прокидывание данных по компонентам / пропсы компонентов
-
-
-![[rules.png|550]]
-
-
-<img src="assets/rules.png" width="550">
+- [Дорожная карта](road_map.md)
