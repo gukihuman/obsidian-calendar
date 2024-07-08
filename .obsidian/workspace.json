@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eec871eae2016d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nikolai.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nikolai.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nikolai.md"
+                "file": "README.md"
               }
             }
           },
@@ -169,11 +182,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94d29509b9fc2602",
+  "active": "eec871eae2016d14",
   "lastOpenFiles": [
+    "Excalidraw/excali_scheme.md",
     "README.md",
-    "nikolai.md",
     "questions.md",
+    "assets/excali_scheme.png",
+    "nikolai.md",
+    "assets/scheme_02.png",
+    "assets/scheme_03.jpg",
+    "Excalidraw",
     "test.md",
     "nickolai.md",
     "assets/scheme.png",
@@ -197,8 +215,6 @@
     "AccountingCalendar/AccountingCalendar.md",
     "AccountingCalendar/TimeSelector/TimeSelector.md",
     "assets/layer_segment_0",
-    "assets/layer_segment.png",
-    "assets/Monosnap Виджет  календаря – Figma - Google Chrome.png",
     "AccountingCalendar/Settings/Settings.md",
     "AccountingCalendar/Body/Schedule.md",
     "AccountingCalendar/Body/Event.md",
@@ -207,16 +223,12 @@
     "AccountingCalendar/Body/Week.md",
     "AccountingCalendar/Settings/List.md",
     "AccountingCalendar/Settings/Mobile.md",
-    "assets/marker.jpg",
-    "AccountingCalendar/Body/Mobile/Mobile/Day.md",
     "AccountingCalendar/Body/Mobile/Mobile",
-    "Mobile/Mobile/Day.md",
     "Mobile/Mobile",
     "Mobile",
     "AccountingCalendar/Body/Mobile",
     "AccountingCalendar/BodySelector",
     "AccountingCalendar/Settings",
-    "AccountingCalendar/TimeSelector",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

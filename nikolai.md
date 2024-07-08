@@ -6,6 +6,15 @@
 
 <img src="assets/scheme.png" width="700">
 
+![[scheme_02.png|700]]
+
+<img src="assets/scheme_02.png" width="700">
+
+![[scheme_03.jpg|700]]
+
+<img src="assets/scheme_03.jpg" width="700">
+
+
 ```js
   const layers = [
     { id: 1, title: 'Выходные' },
