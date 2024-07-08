@@ -1,4 +1,7 @@
 
+[Вариант Николая](nikolai.md)
+
+---
 
 ![[Illustration.jpg|600]]
 
