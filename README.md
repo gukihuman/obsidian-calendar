@@ -132,7 +132,11 @@ const responseEvents: CalendarEvents[] = [
 
 ---
 
+Слои и группы
+
 ![[layers_groups.png|650]]
+
+Эвенты для слоя "Отчеты" создаются в админке: https://www.klerk.ru/yindex.php/is/calendar/update?id=32
 
 <img src="assets/layers_groups.png" width="650">
 
