@@ -1,5 +1,53 @@
 Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
+```js
+groups = [
+ { 
+   items: [ 
+	 { 
+	   items: {
+	      1: { title: ''}, 
+	      2: { title: ''}, 
+	      3: { title: ''}, 
+		},
+	   items: [
+		 { id: 1, title: 'УСН' },
+		 { id: 2, title: 'УСН' },
+		 { id: 3, title: 'УСН' }, 
+	   ]
+	 },
+	] 
+ },
+ {
+    items: [
+	 { 
+	   title: 'УСН',
+	   items: [
+		  { id: 4, title: 'УСН' },
+		  { id: 5, title: 'УСН' },
+		  { id: 6, title: 'УСН' },
+		]
+	 },
+	 { 
+	   title: 'УСН',
+	   items: [
+		  { id: 4, title: 'УСН' },
+		  { id: 5, title: 'УСН' },
+		  { id: 6, title: 'УСН' },
+		]
+	 },
+	 { 
+	   title: 'УСН',
+	   items: [
+		  { id: 4, title: 'УСН' },
+		  { id: 5, title: 'УСН' },
+		  { id: 6, title: 'УСН' },
+		]
+	 },
+   ]	 
+]
+```
+
 ---
 #### Основные типы
 
