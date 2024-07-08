@@ -4,6 +4,14 @@
 
 <img src="assets/Illustration.jpg" width="600">
 
+![[layers_groups.png|600]]
+
+<img src="assets/layers_groups.png" width="600">
+
+![[layers_cats_groups.png|700]]
+
+<img src="assets/layers_cats_groups.png" width="700">
+
 ---
 #### Начальный запрос справочников
 
