@@ -1,7 +1,8 @@
 
+
 ![[Illustration.jpg|600]]
 
-<img src="assets/illustration.jpg" width="600">
+<img src="assets/Illustration.jpg" width="600">
 
 ---
 #### Начальный запрос справочников
