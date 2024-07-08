@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94d29509b9fc2602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nikolai.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "eec871eae2016d14",
             "type": "leaf",
             "state": {
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "94d29509b9fc2602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nikolai.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,11 +183,11 @@
   },
   "active": "eec871eae2016d14",
   "lastOpenFiles": [
-    "Excalidraw/excali_scheme.md",
+    "nikolai.md",
     "README.md",
+    "Excalidraw/excali_scheme.md",
     "questions.md",
     "assets/excali_scheme.png",
-    "nikolai.md",
     "assets/scheme_02.png",
     "assets/scheme_03.jpg",
     "Excalidraw",
