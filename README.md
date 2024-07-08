@@ -9,9 +9,9 @@
 
 Эвент принадлежит всегда только одному слою. Эвент также может принадлежать группам, если они есть, но никогда к категориям напрямую. Категории только обьединяют группы по теме.
 
-![[excali_scheme.png|700]]
+![[excali_scheme_02.png|600]]
 
-<img src="Excalidraw/excali_scheme.png" width="700">
+<img src="Excalidraw/excali_scheme_02.png" width="600">
 
 ![[layers_groups.png|600]]
 
@@ -33,55 +33,47 @@ v4/calendar-info
 ```ts
 export type Info = {
   id: number
-  title: string
+  name: string
 }
-export interface LayersInfo extends Info {
-  groupsIds?: number[]
-  catIds?: number[]
-}
-export interface CategoryInfo extends Info {
-  groupsIds?: number[]
+export interface GroupInfo extends Info {
+  layerId: number
+  category: string // по дефолту пустая строка
 }
 export type ResponseInfo = {
-  layers: LayersInfo[]
-  categories: CategoryInfo[]
-  groups: Info[]
+  layers: Info[]
+  groups: GroupInfo[]
 }
 const responseInfo: ResponseInfo = {
   layers: [
-    { id: 1, title: 'Выходные' },
-    { id: 2, title: 'Мероприятия Клерк', groupsIds: [1, 2, 3] },
-    { id: 3, title: 'Персональные события' },
-    { id: 4, title: 'Отчетность', catIds: [1, 2, 3] },
-  ],
-  categories: [
-    { id: 1, title: 'Виды отчетности', groupsIds: [4, 5, 6, 7, 8] },
-    {
-      id: 2,
-      title: 'Контролирующий орган',
-      groupsIds: [9, 10, 11, 12, 13, 14],
-    },
-    { id: 3, title: 'Система налогооблажения', groupsIds: [15, 16, 17, 18] },
+    { id: 1, name: 'Выходные' },
+    { id: 2, name: 'Мероприятия Клерк' },
+    { id: 3, name: 'Персональные события' },
+    { id: 4, name: 'Отчетность' },
   ],
   groups: [
-    { id: 1, title: 'Вебинары' },
-    { id: 2, title: 'Онлайн-курсы' },
-    { id: 3, title: 'Курсы повышения квалификации' },
-    { id: 4, title: 'Бухгалтерская и налоговая' },
-    { id: 5, title: 'По сотрудникам' },
-    { id: 6, title: 'Статистическая' },
-    { id: 7, title: 'Экологическая' },
-    { id: 8, title: 'Алкогольная' },
-    { id: 9, title: 'ПФР' },
-    { id: 10, title: 'РПН' },
-    { id: 11, title: 'ФНС' },
-    { id: 12, title: 'ФСС' },
-    { id: 13, title: 'ФСРАР' },
-    { id: 14, title: 'СФР' },
-    { id: 15, title: 'ОСНО' },
-    { id: 16, title: 'УСН' },
-    { id: 17, title: 'ПСН' },
-    { id: 18, title: 'ЕСХН' },
+    { id: 1, name: 'Вебинары', layerId: 2, category: '' },
+    { id: 2, name: 'Онлайн-курсы', layerId: 2, category: '' },
+    { id: 3, name: 'Курсы повышения квалификации', layerId: 2, category: '' },
+    {
+      id: 4,
+      name: 'Бухгалтерская и налоговая',
+      layerId: 4,
+      category: 'Виды отчетности',
+    },
+    { id: 5, name: 'По сотрудникам', layerId: 4, category: 'Виды отчетности' },
+    { id: 6, name: 'Статистическая', layerId: 4, category: 'Виды отчетности' },
+    { id: 7, name: 'Экологическая', layerId: 4, category: 'Виды отчетности' },
+    { id: 8, name: 'Алкогольная', layerId: 4, category: 'Виды отчетности' },
+    { id: 9, name: 'ПФР', layerId: 4, category: 'Контролирующий орган' },
+    { id: 10, name: 'РПН', layerId: 4, category: 'Контролирующий орган' },
+    { id: 11, name: 'ФНС', layerId: 4, category: 'Контролирующий орган' },
+    { id: 12, name: 'ФСС', layerId: 4, category: 'Контролирующий орган' },
+    { id: 13, name: 'ФСРАР', layerId: 4, category: 'Контролирующий орган' },
+    { id: 14, name: 'СФР', layerId: 4, category: 'Контролирующий орган' },
+    { id: 15, name: 'ОСНО', layerId: 4, category: 'Система налогооблажения' },
+    { id: 16, name: 'УСН', layerId: 4, category: 'Система налогооблажения' },
+    { id: 17, name: 'ПСН', layerId: 4, category: 'Система налогооблажения' },
+    { id: 18, name: 'ЕСХН', layerId: 4, category: 'Система налогооблажения' },
   ],
 }
 ```
@@ -96,55 +88,81 @@ v4/calendar-events
 ```
 
 ```
-startDate = 2024-04-29
-endDate = 2024-06-02
-layers = 1,2,3
-groups = 1,2,3,4,5
+start = 2024-04-29
+end = 2024-06-02
+layerIds = 1,2,3
+groupIds = 1,2,3,4,5
 ```
 
 ```
-v4/calendar-events?start=2024-04-29&end=2024-06-02&layers=1,2,3,4&groups=1,2,3,4,5
+v4/calendar-events?start=2024-04-29&end=2024-06-02&layerIds=1,2,3&groupIds=1,2,3
 ```
 
 ```ts
 export type CalendarEvents = {
-  layerId: number // хоть и фильтруем уже в запросе, id слоя нужен для цвета
-  groupIds?: number[] // нужно для отображения группы в карточке события - "УСН"
   date: string // тип Date, но фетчится как string
-  title?: string
-  description?: string
+  name: string
+  description: string
+  parentIds: ParentIds
+}
+export type ParentIds = {
+  // хоть и фильтруем уже в запросе, id слоя нужен для цвета
+  layerId: number
+  // нужно для отображения группы в карточке события - "УСН"
+  groupIds: number[] // может быть пустым
 }
 const responseEvents: CalendarEvents[] = [
-  { layerId: 1, date: '2024-06-15' },
-  { layerId: 1, date: '2024-06-16' },
-  { layerId: 1, date: '2024-06-22' },
-  { layerId: 1, date: '2024-06-23' },
+  // Выходные
   {
-    layerId: 2,
-    groupIds: [1],
-    date: '2024-06-10',
-    title: 'Название вебинара',
-    description: 'Описание вебинара',
-  },
-  {
-    layerId: 2,
-    groupIds: [3],
-    date: '2024-06-12',
-    title: 'Название курса повышения квалификации',
-    description: 'Описание курса повышения квалификации',
-  },
-  {
-    layerId: 3,
     date: '2024-06-15',
-    title: 'Название персонального события',
-    description: 'Описание персонального события',
+    name: '',
+    description: '',
+    parentIds: { layerId: 1, groupIds: [] },
   },
   {
-    layerId: 4,
-    groupIds: [5, 9, 11],
+    date: '2024-06-16',
+    name: '',
+    description: '',
+    parentIds: { layerId: 1, groupIds: [] },
+  },
+  {
+    date: '2024-06-22',
+    name: '',
+    description: '',
+    parentIds: { layerId: 1, groupIds: [] },
+  },
+  {
+    date: '2024-06-23',
+    name: '',
+    description: '',
+    parentIds: { layerId: 1, groupIds: [] },
+  },
+  // Мероприятия Клерк
+  {
+    date: '2024-06-10',
+    name: 'Название вебинара',
+    description: 'Описание вебинара',
+    parentIds: { layerId: 2, groupIds: [1] },
+  },
+  {
+    date: '2024-06-12',
+    name: 'Название курса повышения квалификации',
+    description: 'Описание курса повышения квалификации',
+    parentIds: { layerId: 2, groupIds: [3] },
+  },
+  // Персональные события
+  {
+    date: '2024-06-15',
+    name: 'Название персонального события',
+    description: 'Описание персонального события',
+    parentIds: { layerId: 3, groupIds: [] },
+  },
+  // Отчеты
+  {
     date: '2024-06-07',
-    title: 'Название отчета',
+    name: 'Название отчета',
     description: 'Относится ко отчетности по сотрудникам, орган ПФР и ФНС',
+    parentIds: { layerId: 4, groupIds: [5, 9, 11] },
   },
 ]
 ```
