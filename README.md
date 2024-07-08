@@ -132,6 +132,16 @@ const responseEvents: CalendarEvents[] = [
 
 ---
 
+![[layers_groups.png|650]]
+
+<img src="assets/layers_groups.png" width="650">
+
+![[groups_admin.png|450]]
+
+<img src="assets/groups_admin.png" width="450">
+
+---
+
 Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
 id и цвет слоя, задаем на фронте по макету
