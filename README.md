@@ -2,10 +2,11 @@
 
 ![[Illustration.jpg|600]]
 
+<img src="assets/Illustration.jpg" width="600">
+
 Эвент принадлежит всегда только одному слою.
 Эвент также может принадлежать группам, если они есть, но никогда к категориям напрямую. Категории только обьеденяют группы по теме.
 
-<img src="assets/Illustration.jpg" width="600">
 
 ![[layers_groups.png|600]]
 
