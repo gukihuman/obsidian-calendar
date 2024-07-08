@@ -1,16 +1,13 @@
 
+![[Illustration.jpg|600]]
+
+<img src="assets/illustration.jpg" width="600">
+
+---
 #### Начальный запрос справочников
 
 ```
 v4/calendar-info 
-```
-
-```
-fields = layers,groups
-```
-
-```
-v4/calendar-info?fields=layers,groups
 ```
 
 ```ts
@@ -18,51 +15,54 @@ export type Info = {
   id: number
   title: string
 }
-export interface GroupsInfo extends Info {
-  layerId: number
-  catId: number | null
+export interface LayersInfo extends Info {
+  groupsIds?: number[]
+  catIds?: number[]
+}
+export interface CategoryInfo extends Info {
+  groupsIds?: number[]
 }
 export type ResponseInfo = {
-  layers: Info[]
-  groups: {
-    items: GroupsInfo[]
-    categories: Info[]
-  }
+  layers: LayersInfo[]
+  categories: CategoryInfo[]
+  groups: Info[]
 }
 const responseInfo: ResponseInfo = {
   layers: [
     { id: 1, title: 'Выходные' },
-    { id: 2, title: 'Мероприятия Клерк' },
+    { id: 2, title: 'Мероприятия Клерк', groupsIds: [1, 2, 3] },
     { id: 3, title: 'Персональные события' },
-    { id: 4, title: 'Отчетность' },
+    { id: 4, title: 'Отчетность', catIds: [1, 2, 3] },
   ],
-  groups: {
-    items: [
-      { id: 1, layerId: 2, catId: null, title: 'Вебинары' },
-      { id: 2, layerId: 2, catId: null, title: 'Онлайн-курсы' },
-      { id: 3, layerId: 2, catId: null, title: 'Курсы повышения квалификации' },
-      { id: 4, layerId: 4, catId: 1, title: 'Бухгалтерская и налоговая' },
-      { id: 5, layerId: 4, catId: 1, title: 'По сотрудникам' },
-      { id: 6, layerId: 4, catId: 1, title: 'Статистическая' },
-      { id: 7, layerId: 4, catId: 1, title: 'Экологическая' },
-      { id: 8, layerId: 4, catId: 1, title: 'Алкогольная' },
-      { id: 9, layerId: 4, catId: 2, title: 'ПФР' },
-      { id: 10, layerId: 4, catId: 2, title: 'РПН' },
-      { id: 11, layerId: 4, catId: 2, title: 'ФНС' },
-      { id: 12, layerId: 4, catId: 2, title: 'ФСС' },
-      { id: 13, layerId: 4, catId: 2, title: 'ФСРАР' },
-      { id: 14, layerId: 4, catId: 2, title: 'СФР' },
-      { id: 15, layerId: 4, catId: 3, title: 'ОСНО' },
-      { id: 16, layerId: 4, catId: 3, title: 'УСН' },
-      { id: 17, layerId: 4, catId: 3, title: 'ПСН' },
-      { id: 18, layerId: 4, catId: 3, title: 'ЕСХН' },
-    ],
-    categories: [
-      { id: 1, title: 'Виды отчетности' },
-      { id: 2, title: 'Контролирующий орган' },
-      { id: 3, title: 'Система налогооблажения' },
-    ],
-  },
+  categories: [
+    { id: 1, title: 'Виды отчетности', groupsIds: [4, 5, 6, 7, 8] },
+    {
+      id: 2,
+      title: 'Контролирующий орган',
+      groupsIds: [9, 10, 11, 12, 13, 14],
+    },
+    { id: 3, title: 'Система налогооблажения', groupsIds: [15, 16, 17, 18] },
+  ],
+  groups: [
+    { id: 1, title: 'Вебинары' },
+    { id: 2, title: 'Онлайн-курсы' },
+    { id: 3, title: 'Курсы повышения квалификации' },
+    { id: 4, title: 'Бухгалтерская и налоговая' },
+    { id: 5, title: 'По сотрудникам' },
+    { id: 6, title: 'Статистическая' },
+    { id: 7, title: 'Экологическая' },
+    { id: 8, title: 'Алкогольная' },
+    { id: 9, title: 'ПФР' },
+    { id: 10, title: 'РПН' },
+    { id: 11, title: 'ФНС' },
+    { id: 12, title: 'ФСС' },
+    { id: 13, title: 'ФСРАР' },
+    { id: 14, title: 'СФР' },
+    { id: 15, title: 'ОСНО' },
+    { id: 16, title: 'УСН' },
+    { id: 17, title: 'ПСН' },
+    { id: 18, title: 'ЕСХН' },
+  ],
 }
 ```
 
@@ -130,20 +130,6 @@ const responseEvents: CalendarEvents[] = [
 ```
 
 Фильтруем эвенты на бэке по layerId и groupsIds, указанным в параметрах API. Если указан слой без групп - возвращаем все эвенты слоя (например, выходные), в остальных случаях только эвенты указанных групп
-
----
-
-Слои и группы
-
-![[layers_groups.png|650]]
-
-<img src="assets/layers_groups.png" width="650">
-
-Эвенты для слоя "Отчеты" создаются в админке: https://www.klerk.ru/yindex.php/is/calendar/update?id=32
-
-![[groups_admin.png|450]]
-
-<img src="assets/groups_admin.png" width="450">
 
 ---
 

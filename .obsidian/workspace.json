@@ -171,9 +171,12 @@
   },
   "active": "94d29509b9fc2602",
   "lastOpenFiles": [
-    "old_readme_01.md",
     "old_structure.md",
     "README.md",
+    "assets/Illustration.jpg",
+    "assets/Illustration_0",
+    "assets/Illustration.clip",
+    "old_readme_01.md",
     "AccountingCalendar/Body/Date.md",
     "assets/groups_admin.png",
     "assets/layers_groups.png",
@@ -208,14 +211,11 @@
     "Mobile",
     "AccountingCalendar/Body/Mobile",
     "assets/mobile_day_events.png",
-    "assets/event_mobile.png",
     "AccountingCalendar/TimeSelector/Day.md",
     "AccountingCalendar/BodySelector",
     "AccountingCalendar/Settings",
     "AccountingCalendar/TimeSelector",
-    "AccountingCalendar/Body",
     "AccountingCalendar/Mobile/SettingsLayerTwo.md",
-    "AccountingCalendar/Mobile",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
