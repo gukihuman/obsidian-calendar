@@ -11,7 +11,7 @@
 
 ![[excali_scheme.png|700]]
 
-<img src="assets/excali_scheme.png" width="700">
+<img src="Excalidraw/excali_scheme.png" width="700">
 
 ![[layers_groups.png|600]]
 
