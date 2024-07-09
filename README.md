@@ -1,25 +1,3 @@
-
-![[excali_scheme_02.png|600]]
-
-<img src="Excalidraw/excali_scheme_02.png" width="600">
-
-![[layers_groups.png|600]]
-
-<img src="assets/layers_groups.png" width="600">
-
-![[layers_cats_groups.png|700]]
-
-<img src="assets/layers_cats_groups.png" width="700">
-
-Категории могут показаться родительской сущностью по отношению к группам, но на самом деле они лишь собирают группы вместе по теме. Категория - характеристика группы.
-
-![[Illustration.jpg|600]]
-
-<img src="assets/Illustration.jpg" width="600">
-
-Эвент принадлежит всегда только одному слою. Эвент также может принадлежать группам, если они есть, но никогда к категориям напрямую. Категории только обьединяют группы по теме.
-
----
 #### Начальный запрос справочников
 
 ```
@@ -167,6 +145,27 @@ const responseEvents: CalendarEvents[] = [
 
 ---
 
+![[excali_scheme_02.png|600]]
+
+<img src="Excalidraw/excali_scheme_02.png" width="600">
+
+![[layers_groups.png|600]]
+
+<img src="assets/layers_groups.png" width="600">
+
+![[layers_cats_groups.png|700]]
+
+<img src="assets/layers_cats_groups.png" width="700">
+
+Категории могут показаться родительской сущностью по отношению к группам, но на самом деле они лишь собирают группы вместе по теме. Категория - характеристика группы.
+
+![[Illustration.jpg|600]]
+
+<img src="assets/Illustration.jpg" width="600">
+
+Эвент принадлежит всегда только одному слою. Эвент также может принадлежать группам, если они есть, но никогда к категориям напрямую. Категории только обьединяют группы по теме.
+
+---
 Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
 
 id и цвет слоя, задаем на фронте по макету
