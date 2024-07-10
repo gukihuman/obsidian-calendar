@@ -75,17 +75,17 @@ v4/calendar-events?start=2024-04-29&end=2024-06-02&layerIds=1,2,3&groupIds=1,2,3
 Достаточно одного совпадения по группе, чтобы прислать эвент. Мы хотим видеть все эвенты группы. Также, в случае, если эвент не принадлежит ни к одной группе ( пустой groupIds: [] ) - эвент всегда присылается.
 
 ```ts
-export type CalendarEvents = {
-  date: string // тип Date, но фетчится как string
-  name: string
-  description: string
-  parentIds: ParentIds
-}
 export type ParentIds = {
   // хоть и фильтруем уже в запросе, id слоя нужен для цвета
   layerId: number
   // нужно для отображения группы в карточке события - "УСН"
   groupIds: number[] // может быть пустым
+}
+export type CalendarEvents = {
+  date: string // тип Date, но фетчится как string
+  name: string
+  description: string
+  parentIds: ParentIds
 }
 const responseEvents: CalendarEvents[] = [
   // Выходные
@@ -171,7 +171,7 @@ const responseEvents: CalendarEvents[] = [
 id и цвет слоя, задаем на фронте по макету
 ```ts
 const colorLayerMap = {
-  default: 'grey-500', // если не нашли id или не указан
+  0: 'grey-500', // дефолтное значение
   1: 'red-500',
   2: 'green-500',
   3: 'blue-500',
