@@ -5,17 +5,17 @@ v4/calendar-info
 ```
 
 ```ts
-export type Info = {
-  id: number
-  name: string
-}
-export interface GroupInfo extends Info {
-  layerId: number
-  category: string // по дефолту пустая строка
-}
-export type ResponseInfo = {
-  layers: Info[]
-  groups: GroupInfo[]
+type ResponseInfo = {
+  layers: {
+    id: number
+    name: string
+  }[]
+  filters: {
+    id: number
+    name: string
+    layerId: number
+    group: string // по дефолту пустая строка
+  }[]
 }
 const responseInfo: ResponseInfo = {
   layers: [
@@ -24,30 +24,30 @@ const responseInfo: ResponseInfo = {
     { id: 3, name: 'Персональные события' },
     { id: 4, name: 'Отчетность' },
   ],
-  groups: [
-    { id: 1, name: 'Вебинары', layerId: 2, category: '' },
-    { id: 2, name: 'Онлайн-курсы', layerId: 2, category: '' },
-    { id: 3, name: 'Курсы повышения квалификации', layerId: 2, category: '' },
+  filters: [
+    { id: 1, name: 'Вебинары', layerId: 2, group: '' },
+    { id: 2, name: 'Онлайн-курсы', layerId: 2, group: '' },
+    { id: 3, name: 'Курсы повышения квалификации', layerId: 2, group: '' },
     {
       id: 4,
       name: 'Бухгалтерская и налоговая',
       layerId: 4,
-      category: 'Виды отчетности',
+      group: 'Виды отчетности',
     },
-    { id: 5, name: 'По сотрудникам', layerId: 4, category: 'Виды отчетности' },
-    { id: 6, name: 'Статистическая', layerId: 4, category: 'Виды отчетности' },
-    { id: 7, name: 'Экологическая', layerId: 4, category: 'Виды отчетности' },
-    { id: 8, name: 'Алкогольная', layerId: 4, category: 'Виды отчетности' },
-    { id: 9, name: 'ПФР', layerId: 4, category: 'Контролирующий орган' },
-    { id: 10, name: 'РПН', layerId: 4, category: 'Контролирующий орган' },
-    { id: 11, name: 'ФНС', layerId: 4, category: 'Контролирующий орган' },
-    { id: 12, name: 'ФСС', layerId: 4, category: 'Контролирующий орган' },
-    { id: 13, name: 'ФСРАР', layerId: 4, category: 'Контролирующий орган' },
-    { id: 14, name: 'СФР', layerId: 4, category: 'Контролирующий орган' },
-    { id: 15, name: 'ОСНО', layerId: 4, category: 'Система налогооблажения' },
-    { id: 16, name: 'УСН', layerId: 4, category: 'Система налогооблажения' },
-    { id: 17, name: 'ПСН', layerId: 4, category: 'Система налогооблажения' },
-    { id: 18, name: 'ЕСХН', layerId: 4, category: 'Система налогооблажения' },
+    { id: 5, name: 'По сотрудникам', layerId: 4, group: 'Виды отчетности' },
+    { id: 6, name: 'Статистическая', layerId: 4, group: 'Виды отчетности' },
+    { id: 7, name: 'Экологическая', layerId: 4, group: 'Виды отчетности' },
+    { id: 8, name: 'Алкогольная', layerId: 4, group: 'Виды отчетности' },
+    { id: 9, name: 'ПФР', layerId: 4, group: 'Контролирующий орган' },
+    { id: 10, name: 'РПН', layerId: 4, group: 'Контролирующий орган' },
+    { id: 11, name: 'ФНС', layerId: 4, group: 'Контролирующий орган' },
+    { id: 12, name: 'ФСС', layerId: 4, group: 'Контролирующий орган' },
+    { id: 13, name: 'ФСРАР', layerId: 4, group: 'Контролирующий орган' },
+    { id: 14, name: 'СФР', layerId: 4, group: 'Контролирующий орган' },
+    { id: 15, name: 'ОСНО', layerId: 4, group: 'Система налогооблажения' },
+    { id: 16, name: 'УСН', layerId: 4, group: 'Система налогооблажения' },
+    { id: 17, name: 'ПСН', layerId: 4, group: 'Система налогооблажения' },
+    { id: 18, name: 'ЕСХН', layerId: 4, group: 'Система налогооблажения' },
   ],
 }
 ```
@@ -65,122 +65,98 @@ v4/calendar-events
 start = 2024-04-29
 end = 2024-06-02
 layerIds = 1,2,3 // необязательный параметр
-groupIds = 1,2,3,4,5 // необязательный параметр
+filterIds = 1,2,3,4,5 // необязательный параметр
 ```
 
-При отсутствии параметров фильтрации присылаются все эвенты в указанном диапазоне дат.
+При отсутствии параметров фильтрации присылаются все эвенты в указанном диапазоне дат
 
 ```
-v4/calendar-events?start=2024-04-29&end=2024-06-02&layerIds=1,2,3&groupIds=1,2,3
+v4/calendar-events?start=2024-04-29&end=2024-06-02&layerIds=1,2,3&filterIds=1,2,3
 ```
 
 ```ts
-export type ParentIds = {
-  // хоть и фильтруем уже в запросе, id слоя нужен для цвета
-  layerId: number
-  // нужно для отображения группы в карточке события - "УСН"
-  groupIds: number[] // может быть пустым
-}
-export type CalendarEvents = {
-  date: string // тип Date, но фетчится как string
+export type Event = {
+  date: string
   name: string
   description: string
-  parentIds: ParentIds
+  parentIds: {
+    layerId: number
+    filterIds: number[]
+  }
 }
-const responseEvents: CalendarEvents[] = [
+const responseEvents: Event[] = [
   // Выходные
   {
     date: '2024-06-15',
     name: '',
     description: '',
-    parentIds: { layerId: 1, groupIds: [] },
+    parentIds: { layerId: 1, filterIds: [] },
   },
   {
     date: '2024-06-16',
     name: '',
     description: '',
-    parentIds: { layerId: 1, groupIds: [] },
+    parentIds: { layerId: 1, filterIds: [] },
   },
   {
     date: '2024-06-22',
     name: '',
     description: '',
-    parentIds: { layerId: 1, groupIds: [] },
+    parentIds: { layerId: 1, filterIds: [] },
   },
   {
     date: '2024-06-23',
     name: '',
     description: '',
-    parentIds: { layerId: 1, groupIds: [] },
+    parentIds: { layerId: 1, filterIds: [] },
   },
   // Мероприятия Клерк
   {
     date: '2024-06-10',
     name: 'Название вебинара',
     description: 'Описание вебинара',
-    parentIds: { layerId: 2, groupIds: [1] },
+    parentIds: { layerId: 2, filterIds: [1] },
   },
   {
     date: '2024-06-12',
     name: 'Название курса повышения квалификации',
     description: 'Описание курса повышения квалификации',
-    parentIds: { layerId: 2, groupIds: [3] },
+    parentIds: { layerId: 2, filterIds: [3] },
   },
   // Персональные события
   {
     date: '2024-06-15',
     name: 'Название персонального события',
     description: 'Описание персонального события',
-    parentIds: { layerId: 3, groupIds: [] },
+    parentIds: { layerId: 3, filterIds: [] },
   },
-  // Отчеты
+  // Oтчетность
   {
     date: '2024-06-07',
     name: 'Название отчета',
     description: 'Относится ко отчетности по сотрудникам, орган ПФР и ФНС',
-    parentIds: { layerId: 4, groupIds: [5, 9, 11] },
+    parentIds: { layerId: 4, filterIds: [5, 9, 11] },
   },
 ]
 ```
 
-Совпадение по группам должно быть строгим, эвент присылается, только если все группы эвента указаны в запросе. А вот в случае, если эвент не принадлежит ни к одной группе ( пустой groupIds: [] ) - достаточно совпадения по слою, эвент присылается.
+Совпадение по фильтрам должно быть строгим, эвент присылается, только если все фильтры эвента указаны в запросе. А вот в случае, если эвент не относится ни к одному фильтру ( пустой filterIds: [] ) - достаточно совпадения по слою - эвент присылается
 
 ---
 
-![[excali_scheme_02.png|600]]
+![[excali_scheme_03.png|600]]
 
-<img src="Excalidraw/excali_scheme_02.png" width="600">
+<img src="Excalidraw/excali_scheme_03.png" width="600">
 
-![[layers_groups.png|600]]
+![[layers_filters.png|500]]
 
-<img src="assets/layers_groups.png" width="600">
+<img src="assets/layers_filters.png" width="600">
 
-![[layers_cats_groups.png|700]]
+![[layers_groups_filters.png|700]]
 
-<img src="assets/layers_cats_groups.png" width="700">
+<img src="assets/layers_groups_filters.png" width="700">
 
-Категории могут показаться родительской сущностью по отношению к группам, но на самом деле они лишь собирают группы вместе по теме. Категория - характеристика группы.
-
-![[Illustration.jpg|600]]
-
-<img src="assets/Illustration.jpg" width="600">
-
-Эвент принадлежит всегда только одному слою. Эвент также может принадлежать группам, если они есть, но никогда к категориям напрямую. Категории только обьединяют группы по теме.
-
----
-Основной компонент: [AccountingCalendar](AccountingCalendar/AccountingCalendar.md) *(дерево компонентов в сайдбаре навигации)*
-
-id и цвет слоя, задаем на фронте по макету
-```ts
-const colorLayerMap = {
-  0: 'grey-500', // дефолтное значение
-  1: 'red-500',
-  2: 'green-500',
-  3: 'blue-500',
-  4: 'yellow-500',
-}
-```
-
+Группы могут показаться родительской сущностью по отношению к фильтрам, но на самом деле они лишь собирают фильтры вместе по теме для отображения по столбцам. Группа - характеристика фильтра
 
 ---
 
