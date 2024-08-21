@@ -8,14 +8,10 @@ v4/calendar-info
 {
   layers: {
     1: 'Выходные',
-    2: 'Мероприятия Клерк',
-    3: 'Персональные события',
-    4: 'Отчетность',
+    2: 'Вебинары',
+	4: 'Отчетность',
   },
   filters: [
-    { id: 1, name: 'Вебинары', layerId: 2, group: null },
-    { id: 2, name: 'Онлайн-курсы', layerId: 2, group: null },
-    { id: 3, name: 'Курсы повышения квалификации', layerId: 2, group: null },
     {
       id: 4,
       name: 'Бухгалтерская и налоговая',
@@ -89,25 +85,12 @@ v4/calendar-events?start=2024-04-29&end=2024-06-02&layerIds=1,2,3&filterIds=1,2,
     description: '',
     parentIds: { layerId: 1, filterIds: [] },
   },
-  // Мероприятия Клерк
+  // Вебинары
   {
     date: '2024-07-10',
     name: 'Вебинар',
     description: 'Описание вебинара',
-    parentIds: { layerId: 2, filterIds: [1] },
-  },
-  {
-    date: '2024-07-12',
-    name: 'Курс повышения квалификации',
-    description: 'Описание курса повышения квалификации',
-    parentIds: { layerId: 2, filterIds: [3] },
-  },
-  // Персональные события
-  {
-    date: '2024-06-15',
-    name: 'Название персонального события',
-    description: 'Описание персонального события',
-    parentIds: { layerId: 3, filterIds: [] },
+    parentIds: { layerId: 2, filterIds: [] },
   },
   // Oтчетность
   {
