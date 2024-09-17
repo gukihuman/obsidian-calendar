@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eec871eae2016d14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "94d29509b9fc2602",
             "type": "leaf",
             "state": {
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7e0c7d6c6aa3f65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,8 +182,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eec871eae2016d14",
+  "active": "f7e0c7d6c6aa3f65",
   "lastOpenFiles": [
+    "nikolai.md",
+    "README.md",
     "Untitled.canvas",
     "assets/layers_filters.png",
     "assets/layers_groups_filters.png",
@@ -190,11 +193,9 @@
     "assets/ueo.png",
     "Excalidraw/excali_scheme_03.png",
     "Excalidraw/excali_scheme.md",
-    "README.md",
     "Excalidraw/excali_scheme_02.png",
     "Excalidraw/excali_scheme_01.png",
     "assets/excali_scheme.png",
-    "nikolai.md",
     "questions.md",
     "assets/scheme_02.png",
     "assets/scheme_03.jpg",
