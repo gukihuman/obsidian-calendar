@@ -34,7 +34,7 @@ v4/calendar/info
 v4/calendar/events
 ```
 
-```js
+```
 start = 2024-04-29
 end = 2024-06-02
 sendAll // все эвенты в диапазоне дат
