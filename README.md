@@ -109,8 +109,6 @@ v4/calendar/events?start=2024-04-29&end=2024-06-02&1&2&4&5=6,14
 
 ---
 
-<img src="Excalidraw/excali_scheme_03.png" width="600">
-
 ![[layers_filters.png|500]]
 
 <img src="assets/layers_filters.png" width="600">
