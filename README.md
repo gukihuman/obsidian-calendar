@@ -109,19 +109,19 @@ v4/calendar/info?start=2024-04-29&end=2024-06-02&1&2&5=8,14&4
     date: '2024-06-07',
     endDate: '2024-06-15',
     name: 'Название отчета',
-    description: 'Относится ко отчетности по сотрудникам, орган ПФР и СФР',
+    description: 'Не относится ни к одному фильтру',
     url: '',
-    parentIds: { layerId: 4, filterIds: [5, 9, 14] },
+    parentIds: { layerId: 4, filterIds: [] },
     attachments: []
   },
   // Уплата налогов
   {
-    date: '2024-06-07',
+    date: '2024-06-09',
     endDate: '',
     name: 'Название уплаты налогов',
     description: 'Относится к СФР',
     url: '',
-    parentIds: { layerId: 4, filterIds: [14] },
+    parentIds: { layerId: 5, filterIds: [14] },
     attachments: []
   }
 ]
