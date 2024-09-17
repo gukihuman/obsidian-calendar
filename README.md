@@ -15,13 +15,13 @@ v4/calendar/info
   },
   filters: [
     { id: 5, name: 'По сотрудникам', layerIds: [4, 5], group: 'Виды отчетности' },
-    { id: 7, name: 'Экологическая', layerIds: 4, group: 'Виды отчетности' },
+    { id: 7, name: 'Экологическая', layerIds: [4], group: 'Виды отчетности' },
     { id: 8, name: 'Статистическая', layerIds: [4, 5], group: 'Виды отчетности' },
-    { id: 9, name: 'ПФР', layerIds: 4, group: 'Контролирующий орган' },
-    { id: 10, name: 'РПН', layerIds: 4, group: 'Контролирующий орган' },
+    { id: 9, name: 'ПФР', layerIds: [4], group: 'Контролирующий орган' },
+    { id: 10, name: 'РПН', layerIds: [4], group: 'Контролирующий орган' },
     { id: 14, name: 'СФР', layerIds: [4, 5], group: 'Контролирующий орган' },
     { id: 17, name: 'ПСН', layerIds: [4, 5], group: 'Система налогооблажения' },
-    { id: 18, name: 'ЕСХН', layerIds: 4, group: 'Система налогооблажения' },
+    { id: 18, name: 'ЕСХН', layerIds: [4], group: 'Система налогооблажения' },
   ],
 }
 ```
